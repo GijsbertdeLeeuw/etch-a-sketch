@@ -1,0 +1,123 @@
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: block;
+  overflow: hidden;
+  color: #DCDCDC;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  font-size: 2em;
+  background-image: url("../images/background-image.jpg");
+  background-size: cover;
+  background-color: #3C3C3C;
+}
+
+
+main {
+  color: #0F0F0F; 
+}
+
+
+.menu-container {
+  width: 680px;
+  margin-top: 50px; 
+  float: left;
+}
+
+.etch-a-sketch {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+
+.title { 
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.button {
+  width: 95px;
+  padding: 6px 6px;  
+  color: black;
+  border: 2px solid;
+  border-radius: 18px;
+  border-color: black;
+  box-shadow: 5px 5px;
+  font-size: 16px;
+  text-align: center;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+#red {
+background-color: red;
+}
+
+#orange {
+background-color: orange;
+}
+
+#yellow {
+background-color: yellow;
+}
+
+#green {
+background-color: green;
+}
+
+#blue {
+background-color: blue;
+}
+
+#violet {
+background-color: violet;
+}
+
+#graphite {
+color: white;
+background-color: black;
+}
+
+#picker {
+height: 35px;
+}
+
+.footer {
+margin: 10px;
+}
+
+a {
+margin: 20px;
+padding: 0px;
+border: 0px;
+font-size: 16px;
+font-style: italic;
+float: left;
+}
+
+.grid-container {
+  width: 768px;
+  height: 768px;
+  margin-top: 0px;
+  margin-right: 10px; 
+  border: 2px solid;
+  border-color: black;
+  display: inline-block;
+  float: right;
+  background-color: white;
+}
+
+.mesh {
+float: left;
+}
+
