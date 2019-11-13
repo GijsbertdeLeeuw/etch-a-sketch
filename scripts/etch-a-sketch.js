@@ -156,7 +156,7 @@ function eraseColors() {
 function clearAll() {
   document.querySelectorAll(".mesh").forEach(function (mesh) {
     mesh.style.backgroundColor = "white";
-    mesh.target.style.opacity = 1;
+    mesh.style.opacity = 1;
   });
 }
 
